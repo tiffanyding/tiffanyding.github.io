@@ -59,7 +59,10 @@ a {
   vertical-align: middle;
   text-align: center;
   border: 1px solid ;
-  padding: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .item>.page_link {
@@ -68,7 +71,6 @@ a {
   font-size: 25px;
   line-height: 25px;
   text-align: center;
-  padding: 30px;
 }
 
 .fade:hover {
@@ -81,7 +83,7 @@ a {
 }
 
 /* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   /* .container {
     height:100%;
   } */
