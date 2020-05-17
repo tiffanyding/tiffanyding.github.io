@@ -124,7 +124,7 @@ function loadAVisitorPhotos() {
 function getAllImagesScrollingWrapper(folder, numImages){
     str = ""
     for (i = 1; i <= numImages; i++) {
-        str += `<div class="card"><img src="photos/${folder}/${i}.JPG" onclick="openModal();currentSlide(${i})" alt="image" class="hover-shadow cursor"></div>`
+        str += `<div class="card"><img src="/photo/photos/${folder}/${i}.JPG" onclick="openModal();currentSlide(${i})" alt="image" class="hover-shadow cursor"></div>`
     }
 
     document.getElementById("scrolling-wrapper").innerHTML = str
@@ -133,7 +133,7 @@ function getAllImagesScrollingWrapper(folder, numImages){
 function getAllImagesModal(folder, numImages){
     str = ""
     for (i = 1; i <= numImages; i++) {
-        str += `<div class="mySlides"><img src="photos/${folder}/${i}.JPG" ></div>\n`
+        str += `<div class="mySlides"><img src="/photo/photos/${folder}/${i}.JPG" ></div>\n`
     }
 
     str += `<span class="close cursor" onclick="closeModal()">&times;</span>
