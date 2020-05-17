@@ -2,6 +2,8 @@
 	Page-specific Image Loading Functions
 -------------------------------------------------------------------------------*/
 
+// --------- NATURE ----------
+
 function loadBirdsPhotos() {
     getAllImagesScrollingWrapper("birds", 7)
     getAllImagesModal("birds", 7)
@@ -27,10 +29,14 @@ function loadNatureOtherPhotos() {
     getAllImagesModal("nature", 42)
 }
 
+// --------- PEOPLE ----------
+
 function loadPeoplePhotos() {
     getAllImagesScrollingWrapper("people", 9)
     getAllImagesModal("people", 9)
 }
+
+// --------- PLACES ----------
 
 function loadChina2017Photos() {
     getAllImagesScrollingWrapper("china/china2017", 36)
@@ -77,6 +83,8 @@ function loadCitiesOtherPhotos() {
     getAllImagesModal("cities_other", 4)
 }
 
+// --------- BUILDINGS ----------
+
 function loadBuildingsOutsidePhotos() {
     getAllImagesScrollingWrapper("buildings_outside", 9)
     getAllImagesModal("buildings_outside", 9)
@@ -86,6 +94,8 @@ function loadBuildingsInsidePhotos() {
     getAllImagesScrollingWrapper("buildings_inside", 19)
     getAllImagesModal("buildings_inside", 19)
 }
+
+// --------- CONCEPTS ----------
 
 function loadAbstractionPhotos() {
     getAllImagesScrollingWrapper("abstraction", 13)
