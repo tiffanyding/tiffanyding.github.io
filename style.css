@@ -1,0 +1,127 @@
+/* Added this to get buttons to seize properly. height:100% means '100% of the parent
+ element, so we have to set heights of the parents, html and body */
+html, body {
+  height: 98% /* If I make it 100%, then the content doesn't fit entirely on the screen */
+}
+
+body {
+    font-family: 'Abel', Arial, Helvetica, sans-serif;
+    color: #7f8387;
+}
+
+a {
+  color: black
+}
+
+/* ------------------------------------------------------------------------------
+	Header
+-------------------------------------------------------------------------------*/
+
+/* Style the header with some padding */
+.header {
+  overflow: hidden;
+  padding: 1% 1%;
+}
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+/* Change the opacity on mouse-over */
+.header a:hover {
+  opacity: 1
+}
+
+/* ------------------------------------------------------------------------------
+	Buttons
+-------------------------------------------------------------------------------*/
+
+.container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box;
+  border-spacing: 10px;
+}
+
+.item {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid ;
+  padding: 14px;
+}
+
+.item>.page_link {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.fade:hover {
+	background-color: black;
+  transition: .8s;
+}
+
+.fade:hover>.page_link {
+  color: white
+}
+
+/* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
+@media screen and (max-width: 700px) {
+  /* .container {
+    display:
+  } */
+  /* .item {
+    display: block;
+    height: 33%
+  } */
+}
+
+/* ------------------------------------------------------------------------------
+	ABOUT
+-------------------------------------------------------------------------------*/
+
+.photo_of_me {
+  width: 60%;
+}
+
+.item>.text {
+  padding: 20px;
+}
+
+.item p {
+  text-align: left;
+  /* padding: 10px; */
+}
+
+ul {
+  text-align: left;
+}
+
+/* ------------------------------------------------------------------------------
+	Projects
+-------------------------------------------------------------------------------*/
+.project_image {
+  width: 80%;
+}
+
+.item>.caption {
+  padding: 30px;
+}
+
+h1 {
+  color: black;
+}
