@@ -64,13 +64,23 @@ function loadSingaporePhotos() {
 }
 
 function loadBayAreaPhotos() {
-    getAllImagesScrollingWrapper("bay_area", 8)
-    getAllImagesModal("bay_area", 8)
+    getAllImagesScrollingWrapper("california/bay_area", 16)
+    getAllImagesModal("california/bay_area", 16)
 }
 
 function loadKingsCanyonPhotos() {
-    getAllImagesScrollingWrapper("kings_canyon", 23)
-    getAllImagesModal("kings_canyon", 23)
+    getAllImagesScrollingWrapper("california/kings_canyon", 23)
+    getAllImagesModal("california/kings_canyon", 23)
+}
+
+function loadCaliforniaLandscapesPhotos() {
+    getAllImagesScrollingWrapper("california/landscapes", 8)
+    getAllImagesModal("california/landscapes", 8)
+}
+
+function loadYosemitePhotos() {
+    getAllImagesScrollingWrapper("california/yosemite", 24)
+    getAllImagesModal("california/yosemite", 24)
 }
 
 function loadNYCPhotos() {
@@ -78,16 +88,21 @@ function loadNYCPhotos() {
     getAllImagesModal("nyc", 13)
 }
 
+function loadProvidencePhotos() {
+    getAllImagesScrollingWrapper("providence", 7)
+    getAllImagesModal("providence", 7)
+}
+
 function loadCitiesOtherPhotos() {
-    getAllImagesScrollingWrapper("cities_other", 4)
-    getAllImagesModal("cities_other", 4)
+    getAllImagesScrollingWrapper("cities_other", 5)
+    getAllImagesModal("cities_other", 5)
 }
 
 // --------- BUILDINGS ----------
 
 function loadBuildingsOutsidePhotos() {
-    getAllImagesScrollingWrapper("buildings_outside", 9)
-    getAllImagesModal("buildings_outside", 9)
+    getAllImagesScrollingWrapper("buildings_outside", 10)
+    getAllImagesModal("buildings_outside", 10)
 }
 
 function loadBuildingsInsidePhotos() {
