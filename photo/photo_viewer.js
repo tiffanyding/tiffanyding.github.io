@@ -32,8 +32,8 @@ function loadNatureOtherPhotos() {
 // --------- PEOPLE ----------
 
 function loadPeoplePhotos() {
-    getAllImagesScrollingWrapper("people", 9)
-    getAllImagesModal("people", 9)
+    getAllImagesScrollingWrapper("people", 10)
+    getAllImagesModal("people", 10)
 }
 
 // --------- PLACES ----------
@@ -140,6 +140,11 @@ function loadMirrorsPhotos() {
 function loadAVisitorPhotos() {
     getAllImagesScrollingWrapper("a_visitor", 11)
     getAllImagesModal("a_visitor", 11)
+}
+
+function loadEtcPhotos() {
+    getAllImagesScrollingWrapper("etc", 4)
+    getAllImagesModal("etc", 4)
 }
 
 /* ------------------------------------------------------------------------------
