@@ -63,8 +63,6 @@ a {
   padding-right: 14px;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 100%;
-  height: 100%;
 }
 
 .item>.page_link {
@@ -99,8 +97,7 @@ a {
     height:100%;
   } */
   .item {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 }
 
