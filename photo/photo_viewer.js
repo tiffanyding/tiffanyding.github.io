@@ -128,8 +128,8 @@ function loadGeometryPhotos() {
 }
 
 function loadNostalgiaPhotos() {
-    getAllImagesScrollingWrapper("nostalgia", 26)
-    getAllImagesModal("nostalgia", 26)
+    getAllImagesScrollingWrapper("nostalgia", 27)
+    getAllImagesModal("nostalgia", 27)
 }
 
 function loadMirrorsPhotos() {
