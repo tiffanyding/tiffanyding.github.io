@@ -12,43 +12,13 @@
   <script type="text/javascript" src="photo_viewer.js"></script>
 </head>
 
-<body>
+<body onload="loadSkyscapesPhotos()">
+<!-- Get photos as page is loading-->
   <div class="header">
     <a href="../index.html" class="logo">TIFFANY DING</a>
   </div>
 
-  <div id="scrolling-wrapper">
-    <div class="card"><img src="photos/skyscapes/1.JPG" onclick="openModal();currentSlide(1)" alt="TEST" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/2.JPG" onclick="openModal();currentSlide(2)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/3.JPG" onclick="openModal();currentSlide(3)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/4.JPG" onclick="openModal();currentSlide(4)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/5.JPG" onclick="openModal();currentSlide(5)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/6.JPG" onclick="openModal();currentSlide(6)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/7.JPG" onclick="openModal();currentSlide(7)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/8.JPG" onclick="openModal();currentSlide(8)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/9.JPG" onclick="openModal();currentSlide(9)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/10.JPG" onclick="openModal();currentSlide(10)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/11.JPG" onclick="openModal();currentSlide(11)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/12.JPG" onclick="openModal();currentSlide(12)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/13.JPG" onclick="openModal();currentSlide(13)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/14.JPG" onclick="openModal();currentSlide(14)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/15.JPG" onclick="openModal();currentSlide(15)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/16.JPG" onclick="openModal();currentSlide(16)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/17.JPG" onclick="openModal();currentSlide(17)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/18.JPG" onclick="openModal();currentSlide(18)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/19.JPG" onclick="openModal();currentSlide(19)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/20.JPG" onclick="openModal();currentSlide(20)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/21.JPG" onclick="openModal();currentSlide(21)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/22.JPG" onclick="openModal();currentSlide(22)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/23.JPG" onclick="openModal();currentSlide(23)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/24.JPG" onclick="openModal();currentSlide(24)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/25.JPG" onclick="openModal();currentSlide(25)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/26.JPG" onclick="openModal();currentSlide(26)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/27.JPG" onclick="openModal();currentSlide(27)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/28.JPG" onclick="openModal();currentSlide(28)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/29.JPG" onclick="openModal();currentSlide(29)" alt="image" class="hover-shadow cursor"></div>
-    <div class="card"><img src="photos/skyscapes/30.JPG" onclick="openModal();currentSlide(30)" alt="image" class="hover-shadow cursor"></div>
-  </div>
+  <div id="scrolling-wrapper"></div> <!-- Filled in using Javascript -->
 
   <div class="footer">
     <a href="nature.html">&lt&lt BACK</a>
@@ -59,47 +29,7 @@
   --------------------------------------------------------------------------------->
 
   <div id="myModal" class="modal">
-    <div id="modal-content">
-      <div class="mySlides"><img src="photos/skyscapes/1.JPG" ></div>
-      <div class="mySlides"><img src="photos/skyscapes/2.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/3.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/4.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/5.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/6.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/7.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/8.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/9.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/10.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/11.JPG" ></div>
-      <div class="mySlides"><img src="photos/skyscapes/12.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/13.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/14.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/15.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/16.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/17.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/18.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/19.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/20.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/21.JPG" ></div>
-      <div class="mySlides"><img src="photos/skyscapes/22.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/23.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/24.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/25.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/26.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/27.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/28.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/29.JPG"></div>
-      <div class="mySlides"><img src="photos/skyscapes/30.JPG"></div>
-
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-
+    <div id="modal-content"></div> <!-- Filled in using Javascript -->
     </div>
 
 </body>

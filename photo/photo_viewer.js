@@ -24,6 +24,11 @@ function loadWaterPhotos() {
     getAllImagesModal("nature/water", 12)
 }
 
+function loadSkyscapesPhotos() {
+    getAllImagesScrollingWrapper("skyscapes", 30)
+    getAllImagesModal("skyscapes", 30)
+}
+
 function loadNatureOtherPhotos() {
     getAllImagesScrollingWrapper("nature", 42)
     getAllImagesModal("nature", 42)
