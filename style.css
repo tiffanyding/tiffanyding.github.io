@@ -123,6 +123,25 @@ ul {
   text-align: left;
 }
 
+/* small buttons (CV and Resume) */
+.small_button {
+  border: none;
+  font-weight: bold;
+  background-color: #6c93cc;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+}
+
+.small_button:hover {
+	background-color: black;
+  transition: .4s;
+}
+
 /* ------------------------------------------------------------------------------
 	Projects
 -------------------------------------------------------------------------------*/
