@@ -41,7 +41,7 @@ img {
 }
 
 .footer a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /* Add media queries for responsiveness - when the screen is less than a certain height, force BACK button to go below image */
@@ -82,7 +82,6 @@ img {
     /* width: 85%;
     height: 100%; */
     /* height: auto; */
-    /* max-width: 1200px; */
   }
 
   /* The Close Button */
@@ -113,6 +112,16 @@ img {
     height: 88vh;
     display: block;
     margin: auto;
+  }
+
+  /* ADDED */
+  /* Add media queries for responsiveness - when height > width, restrict max height */
+  @media screen and (orientation: portrait) {
+    .mySlides img {
+      /* vh is % of viewport height */
+      max-width: 90%;
+      height: auto;
+    }
   }
 
   .cursor {
@@ -181,7 +190,7 @@ img {
   /* img.hover-shadow {
     transition: 0.3s
   } */
-/* 
+/*
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   } */
