@@ -7,6 +7,7 @@ html, body {
 body {
     font-family: 'Abel', Arial, Helvetica, sans-serif;
     color: #7f8387;
+    font-size: 17px;
 }
 
 a {
@@ -29,6 +30,7 @@ a {
   float: left;
   color: black;
   text-align: center;
+  padding-right: 12px;
   text-decoration: none;
   font-size: 25px;
   line-height: 20px;
@@ -39,6 +41,17 @@ a {
 /* Change the opacity on mouse-over */
 .header a:hover {
   opacity: 1
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Color link for current page blue */
+.header-right a.active {
+  opacity: 1;
+  color: #7acfe4;
 }
 
 /* ------------------------------------------------------------------------------
@@ -74,7 +87,7 @@ a {
   /* box-sizing: border-box;
   width: 100%;
   height: 100%; */
-  /* display: block; 
+  /* display: block;
   position: relative;
   top: 50%;
   width: 100%;
@@ -102,29 +115,61 @@ a {
 }
 
 /* ------------------------------------------------------------------------------
+	HOME
+-------------------------------------------------------------------------------*/
+.flex_container {
+  display: flex;
+  align-items: center;
+}
+
+/* .photo_box {
+  max-width: 40%;
+} */
+
+.photo_of_me {
+  padding: 50px;
+  width: 260px;
+  border-radius: 80px;
+}
+
+.homepage_text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.news {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+/* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
+@media screen and (max-width: 800px) {
+  .flex_container {
+    display: block;
+  }
+}
+
+
+/* ------------------------------------------------------------------------------
 	ABOUT
 -------------------------------------------------------------------------------*/
 
-.photo_of_me {
-  width: 60%;
-  margin: auto;
-}
 
-.item>.text {
+/* .item>.text {
   padding: 20px;
 }
 
 .item p {
   text-align: left;
-  /* padding: 10px; */
 }
 
 ul {
   text-align: left;
-}
+} */
 
 /* small buttons (CV and Resume) */
-.small_button {
+/* .small_button {
   border: none;
   font-weight: bold;
   background-color: #6c93cc;
@@ -140,6 +185,19 @@ ul {
 .small_button:hover {
 	background-color: black;
   transition: .4s;
+} */
+
+/* ------------------------------------------------------------------------------
+	Research
+-------------------------------------------------------------------------------*/
+.research {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.publication {
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 /* ------------------------------------------------------------------------------
