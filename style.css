@@ -5,8 +5,9 @@ html, body {
 }
 
 body {
-    font-family: 'Abel', Arial, Helvetica, sans-serif;
-    color: #7f8387;
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /* 'Abel' */
+     color: #3b434f;
+    /* color: #7f8387; */
     font-size: 17px;
 }
 
@@ -135,12 +136,14 @@ a {
 .homepage_text {
   padding-left: 20px;
   padding-right: 20px;
+  line-height: 1.5; /* Set line spacing */
 }
 
 .news {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+  line-height: 1.5; /* Set line spacing */
 }
 
 /* Add media queries for responsiveness - when the screen is 800px wide or less, stack the links on top of each other */
