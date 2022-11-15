@@ -152,6 +152,11 @@ function loadEtcPhotos() {
     getAllImagesModal("etc", 4)
 }
 
+function loadUCStrikePhotos() {
+    getAllImagesScrollingWrapper("uc_strike", 20)
+    getAllImagesModal("uc_strike", 20)
+}
+
 /* ------------------------------------------------------------------------------
 	General Image Loading Functions
 -------------------------------------------------------------------------------*/
