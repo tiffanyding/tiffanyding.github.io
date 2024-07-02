@@ -93,6 +93,11 @@ function loadNYCPhotos() {
     getAllImagesModal("nyc", 13)
 }
 
+function loadStormKingPhotos() {
+    getAllImagesScrollingWrapper("storm_king", 11)
+    getAllImagesModal("storm_king", 11)
+}
+
 function loadProvidencePhotos() {
     getAllImagesScrollingWrapper("providence", 7)
     getAllImagesModal("providence", 7)
