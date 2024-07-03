@@ -128,8 +128,8 @@ function loadAbstractionPhotos() {
 }
 
 function loadColorsPhotos() {
-    getAllImagesScrollingWrapper("colors", 7)
-    getAllImagesModal("colors", 7)
+    getAllImagesScrollingWrapper("colors", 8)
+    getAllImagesModal("colors", 8)
 }
 
 function loadGeometryPhotos() {
