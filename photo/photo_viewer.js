@@ -10,13 +10,13 @@ function loadBirdsPhotos() {
 }
 
 function loadFlowersPhotos() {
-    getAllImagesScrollingWrapper("nature/flowers", 10)
-    getAllImagesModal("nature/flowers", 10)
+    getAllImagesScrollingWrapper("nature/flowers", 11)
+    getAllImagesModal("nature/flowers", 11)
 }
 
 function loadTreesPhotos() {
-    getAllImagesScrollingWrapper("nature/trees", 6)
-    getAllImagesModal("nature/trees", 6)
+    getAllImagesScrollingWrapper("nature/trees", 8)
+    getAllImagesModal("nature/trees", 8)
 }
 
 function loadWaterPhotos() {
@@ -99,8 +99,8 @@ function loadStormKingPhotos() {
 }
 
 function loadProvidencePhotos() {
-    getAllImagesScrollingWrapper("providence", 7)
-    getAllImagesModal("providence", 7)
+    getAllImagesScrollingWrapper("providence", 16)
+    getAllImagesModal("providence", 16)
 }
 
 function loadCitiesOtherPhotos() {
@@ -123,23 +123,23 @@ function loadBuildingsInsidePhotos() {
 // --------- CONCEPTS ----------
 
 function loadAbstractionPhotos() {
-    getAllImagesScrollingWrapper("abstraction", 13)
-    getAllImagesModal("abstraction", 13)
+    getAllImagesScrollingWrapper("abstraction", 14)
+    getAllImagesModal("abstraction", 14)
 }
 
 function loadColorsPhotos() {
-    getAllImagesScrollingWrapper("colors", 8)
-    getAllImagesModal("colors", 8)
+    getAllImagesScrollingWrapper("colors", 10)
+    getAllImagesModal("colors", 10)
 }
 
 function loadGeometryPhotos() {
-    getAllImagesScrollingWrapper("geometry", 15)
-    getAllImagesModal("geometry", 15)
+    getAllImagesScrollingWrapper("geometry", 16)
+    getAllImagesModal("geometry", 16)
 }
 
 function loadNostalgiaPhotos() {
-    getAllImagesScrollingWrapper("nostalgia", 27)
-    getAllImagesModal("nostalgia", 27)
+    getAllImagesScrollingWrapper("nostalgia", 28)
+    getAllImagesModal("nostalgia", 28)
 }
 
 function loadMirrorsPhotos() {
