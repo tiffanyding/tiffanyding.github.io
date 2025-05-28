@@ -10,13 +10,13 @@ function loadBirdsPhotos() {
 }
 
 function loadFlowersPhotos() {
-    getAllImagesScrollingWrapper("nature/flowers", 11)
-    getAllImagesModal("nature/flowers", 11)
+    getAllImagesScrollingWrapper("nature/flowers", 13)
+    getAllImagesModal("nature/flowers", 13)
 }
 
 function loadTreesPhotos() {
-    getAllImagesScrollingWrapper("nature/trees", 8)
-    getAllImagesModal("nature/trees", 8)
+    getAllImagesScrollingWrapper("nature/trees", 9)
+    getAllImagesModal("nature/trees", 9)
 }
 
 function loadWaterPhotos() {
@@ -108,6 +108,16 @@ function loadCitiesOtherPhotos() {
     getAllImagesModal("cities_other", 5)
 }
 
+function loadSouthOfFrancePhotos() {
+    getAllImagesScrollingWrapper("south_of_france", 30)
+    getAllImagesModal("south_of_france", 30)
+}
+
+function loadParisPhotos() {
+    getAllImagesScrollingWrapper("paris", 27)
+    getAllImagesModal("paris", 27)
+}
+
 // --------- BUILDINGS ----------
 
 function loadBuildingsOutsidePhotos() {
@@ -128,8 +138,8 @@ function loadAbstractionPhotos() {
 }
 
 function loadColorsPhotos() {
-    getAllImagesScrollingWrapper("colors", 10)
-    getAllImagesModal("colors", 10)
+    getAllImagesScrollingWrapper("colors", 14)
+    getAllImagesModal("colors", 14)
 }
 
 function loadGeometryPhotos() {
