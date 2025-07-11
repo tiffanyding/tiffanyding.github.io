@@ -168,6 +168,17 @@ a {
   color: white;
 }
 
+/* Old news items */
+.old-news {
+  color: #7f8387;      /* light grey text */
+  opacity: 0.55;       /* dim the whole line a bit */
+}
+
+/* keep Old News links the same grey instead of default black/blue */
+.old-news a {
+  color: inherit;
+}
+
 
 /* ------------------------------------------------------------------------------
 	ABOUT
