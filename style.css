@@ -1,33 +1,59 @@
+/* ------------------------------------------------------------------------------
+  Global: instead of hardcoding values, reference the variable with var(--name)
+-------------------------------------------------------------------------------*/
+:root{
+  --text:#253041; --muted:#667085; --link:#111827; --link-active:#0ea5e9;
+  --border:#e4e7ec; --bg:#ffffff; --card:#fbfcfe; --radius:16px; --shadow:0 6px 18px rgba(17,24,39,.06);
+  --fs-0:14px; --fs-1:16px; --fs-2:21px; --fs-3:24px; --fs-4:32px; --lh:1.15;
+}
+
 /* Added this to get buttons to seize properly. height:100% means '100% of the parent
  element, so we have to set heights of the parents, html and body */
 html, body {
   height: 98% /* If I make it 100%, then the content doesn't fit entirely on the screen */
 }
 
-body {
-     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; /* 'Abel' */
-     color: #3b434f;
-    /* color: #7f8387; */
-    font-size: 17px;
+body{
+  font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: var(--text); font-size: var(--fs-1); line-height: var(--lh); margin: 0;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
+
+/* body {
+     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+     color: #3b434f;
+    font-size: 17px;
+} */
 
 a {
   color: black
 }
+a:hover{ color: var(--link-active) }
 
 /* ------------------------------------------------------------------------------
 	Header
 -------------------------------------------------------------------------------*/
 
+/* Header */
+.header{
+  display: grid; grid-template-columns: 1fr auto; align-items: center;
+  padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--bg);
+}
+.header a{
+  font-size: var(--fs-2); padding: 0px 10px; border-radius: 12px; opacity:.7; color: var(--link); text-decoration: none;
+}
+.header a:hover{ opacity: 1; }
+.header-right a.active{ color: var(--link-active); opacity:1; }
+
 /* Style the header with some padding */
-.header {
+/* .header {
   overflow: hidden;
   padding: 1% 1%;
-}
+} */
 
 
 /* Style the header links */
-.header a {
+/* .header a {
   float: left;
   color: black;
   text-align: center;
@@ -37,23 +63,23 @@ a {
   line-height: 20px;
   border-radius: 4px;
   opacity: 0.3;
-}
+} */
 
 /* Change the opacity on mouse-over */
-.header a:hover {
+/* .header a:hover {
   opacity: 1
-}
+} */
 
 /* Float the link section to the right */
-.header-right {
+/* .header-right {
   float: right;
-}
+} */
 
 /* Color link for current page blue */
-.header-right a.active {
+/* .header-right a.active {
   opacity: 1;
   color: #7acfe4;
-}
+} */
 
 /* ------------------------------------------------------------------------------
 	Buttons
@@ -227,6 +253,7 @@ ul {
 .publication {
   padding-left: 10px;
   padding-bottom: 10px;
+  border-left: 3px solid var(--border); /* vertical gray line on left */
 }
 
 .publication a {
