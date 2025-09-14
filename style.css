@@ -169,6 +169,7 @@ a:hover{ color: var(--link-active) }
   border-radius: 80px;
 }
 
+
 .homepage_text {
   padding-left: 20px;
   padding-right: 20px;
@@ -203,6 +204,41 @@ a:hover{ color: var(--link-active) }
 /* keep Old News links the same grey instead of default black/blue */
 .old-news a {
   color: inherit;
+}
+
+/* --- Social icons (Font Awesome + Academicons) --- */
+.socials{
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;            /* center under photo */
+}
+
+.socials a{
+  inline-size: 40px;
+  block-size: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.socials a:hover{
+  transform: translateY(-1px);
+  border-color: var(--link-active);
+  box-shadow: 0 6px 18px rgba(17,24,39,.08);
+}
+
+/* icon sizes: FA and Academicons both respond to font-size */
+.socials i{
+  font-size: 18px;
+  line-height: 1;
+  color: var(--link);
 }
 
 
