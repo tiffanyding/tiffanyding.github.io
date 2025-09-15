@@ -294,7 +294,7 @@ ul {
 }
 
 .publication a {
-  color: #276ba3;
+  color: var(--link-active);
 }
 
 
