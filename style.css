@@ -2,10 +2,11 @@
   Global: instead of hardcoding values, reference the variable with var(--name)
 -------------------------------------------------------------------------------*/
 :root{
-  --text:#253041; --muted:#667085; --link:#111827; --link-active:#0ea5e9;
+  --text:#253041; --muted:#667085; --link:#111827; --link-active:#1a9c42;
   --border:#e4e7ec; --bg:#ffffff; --card:#fbfcfe; --radius:16px; --shadow:0 6px 18px rgba(17,24,39,.06);
   --fs-0:14px; --fs-1:16px; --fs-2:21px; --fs-3:24px; --fs-4:32px; --lh:1.15;
 }
+/* old link-active: #0ea5e9; */
 
 /* Added this to get buttons to seize properly. height:100% means '100% of the parent
  element, so we have to set heights of the parents, html and body */
