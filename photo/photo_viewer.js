@@ -98,6 +98,22 @@ function loadYosemitePhotos() {
     getAllImagesModal("california/yosemite", 24)
 }
 
+function loadWhiteSandsPhotos() {
+    getAllImagesScrollingWrapper("new_mexico/white_sands", 19)
+    getAllImagesModal("new_mexico/white_sands", 19)
+}
+
+function loadWhiteSandsBWPhotos() {
+    getAllImagesScrollingWrapper("new_mexico/white_sands_bw", 16)
+    getAllImagesModal("new_mexico/white_sands_bw", 16)
+}
+
+function loadNewMexicoMiscPhotos() {
+    getAllImagesScrollingWrapper("new_mexico/new_mexico_misc", 8)
+    getAllImagesModal("new_mexico/new_mexico_misc", 8)
+}
+
+
 function loadNYCPhotos() {
     getAllImagesScrollingWrapper("nyc", 13)
     getAllImagesModal("nyc", 13)
