@@ -10,13 +10,13 @@ function loadBirdsPhotos() {
 }
 
 function loadFlowersPhotos() {
-    getAllImagesScrollingWrapper("nature/flowers", 13)
-    getAllImagesModal("nature/flowers", 13)
+    getAllImagesScrollingWrapper("nature/flowers", 15)
+    getAllImagesModal("nature/flowers", 15)
 }
 
 function loadTreesPhotos() {
-    getAllImagesScrollingWrapper("nature/trees", 9)
-    getAllImagesModal("nature/trees", 9)
+    getAllImagesScrollingWrapper("nature/trees", 10)
+    getAllImagesModal("nature/trees", 10)
 }
 
 function loadWaterPhotos() {
@@ -68,9 +68,19 @@ function loadSingaporePhotos() {
     getAllImagesModal("singapore", 11)
 }
 
-function loadBayAreaPhotos() {
-    getAllImagesScrollingWrapper("california/bay_area", 16)
-    getAllImagesModal("california/bay_area", 16)
+function loadBayArea2019Photos() {
+    getAllImagesScrollingWrapper("california/bay_area_2019", 16)
+    getAllImagesModal("california/bay_area_2019", 16)
+}
+
+function loadBerkeleyPlantsPhotos() {
+    getAllImagesScrollingWrapper("california/berkeley_plants", 18)
+    getAllImagesModal("california/berkeley_plants", 18)
+}
+
+function loadBerkeleyBackdropsPhotos() {
+    getAllImagesScrollingWrapper("california/berkeley_backdrops", 5)
+    getAllImagesModal("california/berkeley_backdrops", 5)
 }
 
 function loadKingsCanyonPhotos() {
