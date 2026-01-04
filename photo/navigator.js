@@ -282,12 +282,12 @@ function buildGridTree(node, currentPageId, activePathSet, columnIndex, gap) {
     
     const label = node.label + (totalCount > 0 ? ` (${totalCount})` : '');
     
-    // Calculate left position for this column
+    // Calculate left position for this column using viewport width units
     const leftPos = columnIndex * gap;
     
     // Render node row
-    const leftPad = window.innerWidth / 3 - 100; // base left padding
-    html += '<div class="nav-h-grid-row" style="margin-left: ' + (leftPad + leftPos) + 'px;">';
+    const leftPad = 'calc(50vw - 230px)'; // base left padding using viewport width
+    html += '<div class="nav-h-grid-row" style="margin-left: calc(' + leftPad + ' + ' + leftPos + 'px);">';
     
     if (node.url) {
         html += `<a href="${node.url}" class="nav-h-node ${className}">${label}</a>`;
