@@ -121,7 +121,7 @@ a:hover{ color: var(--link-active) }
 
 .fade:hover {
 	background-color: black;
-  transition: .8s;
+  transition: .5s;
 }
 
 .fade:hover>.page_link {
