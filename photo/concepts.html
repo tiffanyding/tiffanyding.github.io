@@ -7,7 +7,9 @@
   <link rel="icon" type="image/png" href="../icon.png" sizes="16x16" />
   <title>Tiffany Ding</title>
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="photo-style.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <script type="text/javascript" src="navigator.js"></script>
 </head>
 
 <body>
@@ -16,39 +18,42 @@
     <div class="header-right">
       <a href="../index.html">Home</a>
       <a href="../research.html">Research</a>
-      <a class="active" href="../photo.html">Photography</a>
+      <a class="active" href="../photo/photo.html">Photography</a>
       <a href="../CV.pdf" target="_blank">CV</a>
     </div>
   </div>
 
   <hr> <!-- inserts a horizontal line -->
 
-  <div class="container">
-    <div class="item fade many">
-      <a href="../photo.html" class="page_link">&lt&lt BACK</a>
+  <div class="container many">
+    <div class="item fade">
+      <a href="../photo/photo.html" class="page_link">&lt&lt BACK</a>
     </div>
-    <div class="item fade many many">
+    <div class="item fade">
       <a href="abstraction.html" class="page_link">ABSTRACTION</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="colors.html" class="page_link">COLORS</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="geometry.html" class="page_link">GEOMETRY</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="nostalgia.html" class="page_link">NOSTALGIA</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="mirrors.html" class="page_link">MIRRORS</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="a_visitor.html" class="page_link">A VISITOR</a>
     </div>
-    <div class="item fade many">
+    <div class="item fade">
       <a href="etc.html" class="page_link">ETC.</a>
     </div>
   </div>
+
+  <div id="site-navigator"></div>
+  <script>initNavigator('concepts');</script>
 </body>
 
 </html>

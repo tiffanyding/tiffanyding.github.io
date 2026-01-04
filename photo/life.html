@@ -7,7 +7,9 @@
   <link rel="icon" type="image/png" href="../icon.png" sizes="16x16" />
   <title>Tiffany Ding</title>
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="photo-style.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <script type="text/javascript" src="navigator.js"></script>
 </head>
 
 <body>
@@ -16,7 +18,7 @@
     <div class="header-right">
       <a href="../index.html">Home</a>
       <a href="../research.html">Research</a>
-      <a class="active" href="../photo.html">Photography</a>
+      <a class="active" href="../photo/photo.html">Photography</a>
       <a href="../CV.pdf" target="_blank">CV</a>
     </div>
   </div>
@@ -25,7 +27,7 @@
 
   <div class="container">
     <div class="item fade">
-      <a href="../photo.html" class="page_link">&lt&lt BACK</a>
+      <a href="../photo/photo.html" class="page_link">&lt&lt BACK</a>
     </div>
     <div class="item fade">
       <a href="people.html" class="page_link">PEOPLE</a>
@@ -34,6 +36,9 @@
       <a href="happenings.html" class="page_link">HAPPENINGS</a>
     </div>
   </div>
+
+  <div id="site-navigator"></div>
+  <script>initNavigator('life');</script>
 </body>
 
 </html>

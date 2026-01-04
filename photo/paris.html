@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../style.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
   <script type="text/javascript" src="photo_viewer.js"></script>
+  <script type="text/javascript" src="navigator.js"></script>
 </head>
 
 <body onload="loadParisPhotos()">
@@ -31,6 +32,9 @@
   <div id="myModal" class="modal">
     <div id="modal-content"></div> <!-- Filled in using Javascript -->
     </div>
+
+  <div id="site-navigator"></div>
+  <script>initNavigator('paris');</script>
 
 </body>
 
