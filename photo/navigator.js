@@ -6,7 +6,7 @@
 const siteTree = {
     id: 'photo',
     label: 'Photos',
-    url: 'photo/photo.html',
+    url: 'photo.html',
     children: [
         {
             id: 'nature',
