@@ -112,25 +112,51 @@ const siteTree = {
                             ]
                         },
                         {
-                            id: 'new_mexico',
-                            label: 'New Mexico',
-                            url: 'new_mexico.html',
+                            id: 'southwest',
+                            label: 'Southwest',
+                            url: 'southwest.html',
                             children: [
-                                { id: 'white_sands', label: 'White Sands', url: 'white_sands.html', count: 19 },
-                                { id: 'white_sands_bw', label: 'B&W Sands', url: 'white_sands_bw.html', count: 16 },
-                                { id: 'new_mexico_misc', label: 'Misc.', url: 'new_mexico_misc.html', count: 8 }
+                                {
+                                    id: 'new_mexico',
+                                    label: 'New Mexico',
+                                    url: 'new_mexico.html',
+                                    children: [
+                                        { id: 'white_sands', label: 'White Sands', url: 'white_sands.html', count: 19 },
+                                        { id: 'white_sands_bw', label: 'B&W Sands', url: 'white_sands_bw.html', count: 16 },
+                                        { id: 'new_mexico_misc', label: 'Misc.', url: 'new_mexico_misc.html', count: 8 }
+                                    ]
+                                },
+                                {
+                                    id: 'utah',
+                                    label: 'Utah',
+                                    url: 'utah.html',
+                                    children: [
+                                        { id: 'arches', label: 'Arches', url: 'arches.html', count: 23 },
+                                        { id: 'canyonlands', label: 'Canyonlands', url: 'canyonlands.html', count: 8 },
+                                        { id: 'escalante', label: 'Escalante', url: 'escalante.html', count: 15 },
+                                        { id: 'bryce_canyon', label: 'Bryce Canyon', url: 'bryce_canyon.html', count: 11 },
+                                        { id: 'utah_misc', label: 'Misc.', url: 'utah_misc.html', count: 5 }
+                                    ]
+                                }
                             ]
                         },
                         {
-                            id: 'new_york',
-                            label: 'New York',
-                            url: 'new_york.html',
+                            id: 'east_coast',
+                            label: 'East Coast',
+                            url: 'east_coast.html',
                             children: [
-                                { id: 'nyc', label: 'NYC', url: 'nyc.html', count: 13 },
-                                { id: 'storm_king', label: 'Storm King', url: 'storm_king.html', count: 11 }
+                                {
+                                    id: 'new_york',
+                                    label: 'New York',
+                                    url: 'new_york.html',
+                                    children: [
+                                        { id: 'nyc', label: 'NYC', url: 'nyc.html', count: 13 },
+                                        { id: 'storm_king', label: 'Storm King', url: 'storm_king.html', count: 11 }
+                                    ]
+                                },
+                                { id: 'providence', label: 'Providence', url: 'providence.html', count: 16 }
                             ]
                         },
-                        { id: 'providence', label: 'Providence', url: 'providence.html', count: 16 },
                         { id: 'cities_other', label: 'Other', url: 'cities_other.html', count: 5 }
                     ]
                 }

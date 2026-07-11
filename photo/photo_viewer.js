@@ -113,6 +113,31 @@ function loadNewMexicoMiscPhotos() {
     getAllImagesModal("new_mexico/new_mexico_misc", 8)
 }
 
+function loadArchesPhotos() {
+    getAllImagesScrollingWrapper("utah/arches", 23)
+    getAllImagesModal("utah/arches", 23)
+}
+
+function loadCanyonlandsPhotos() {
+    getAllImagesScrollingWrapper("utah/canyonlands", 8)
+    getAllImagesModal("utah/canyonlands", 8)
+}
+
+function loadEscalantePhotos() {
+    getAllImagesScrollingWrapper("utah/escalante", 15)
+    getAllImagesModal("utah/escalante", 15)
+}
+
+function loadBryceCanyonPhotos() {
+    getAllImagesScrollingWrapper("utah/bryce_canyon", 11)
+    getAllImagesModal("utah/bryce_canyon", 11)
+}
+
+function loadUtahMiscPhotos() {
+    getAllImagesScrollingWrapper("utah/utah_misc", 5)
+    getAllImagesModal("utah/utah_misc", 5)
+}
+
 
 function loadNYCPhotos() {
     getAllImagesScrollingWrapper("nyc", 13)
