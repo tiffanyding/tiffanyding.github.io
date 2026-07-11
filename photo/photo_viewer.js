@@ -79,8 +79,8 @@ function loadBerkeleyPlantsPhotos() {
 }
 
 function loadBerkeleyBackdropsPhotos() {
-    getAllImagesScrollingWrapper("california/berkeley_backdrops", 5)
-    getAllImagesModal("california/berkeley_backdrops", 5)
+    getAllImagesScrollingWrapper("california/berkeley_backdrops", 6)
+    getAllImagesModal("california/berkeley_backdrops", 6)
 }
 
 function loadKingsCanyonPhotos() {

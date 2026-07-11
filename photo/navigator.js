@@ -101,7 +101,7 @@ const siteTree = {
                                             url: 'berkeley.html',
                                             children: [
                                                 { id: 'berkeley_plants', label: 'Plants of Berkeley', url: 'berkeley_plants.html', count: 18 },
-                                                { id: 'berkeley_backdrops', label: 'Berkeley Backdrops', url: 'berkeley_backdrops.html', count: 5 }
+                                                { id: 'berkeley_backdrops', label: 'Berkeley Backdrops', url: 'berkeley_backdrops.html', count: 6 }
                                             ]
                                         }
                                     ]
