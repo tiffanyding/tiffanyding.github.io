@@ -85,30 +85,38 @@ const siteTree = {
                     url: 'us.html',
                     children: [
                         {
-                            id: 'california',
-                            label: 'California',
-                            url: 'california.html',
+                            id: 'west_coast',
+                            label: 'West Coast',
+                            url: 'west_coast.html',
                             children: [
                                 {
-                                    id: 'bay_area',
-                                    label: 'Bay Area',
-                                    url: 'bay_area.html',
+                                    id: 'california',
+                                    label: 'California',
+                                    url: 'california.html',
                                     children: [
-                                        { id: 'bay_area_2019', label: 'Bay Area - 2019', url: 'bay_area_2019.html', count: 16 },
                                         {
-                                            id: 'berkeley',
-                                            label: 'Berkeley',
-                                            url: 'berkeley.html',
+                                            id: 'bay_area',
+                                            label: 'Bay Area',
+                                            url: 'bay_area.html',
                                             children: [
-                                                { id: 'berkeley_plants', label: 'Plants of Berkeley', url: 'berkeley_plants.html', count: 18 },
-                                                { id: 'berkeley_backdrops', label: 'Berkeley Backdrops', url: 'berkeley_backdrops.html', count: 6 }
+                                                { id: 'bay_area_2019', label: 'Bay Area - 2019', url: 'bay_area_2019.html', count: 16 },
+                                                {
+                                                    id: 'berkeley',
+                                                    label: 'Berkeley',
+                                                    url: 'berkeley.html',
+                                                    children: [
+                                                        { id: 'berkeley_plants', label: 'Plants of Berkeley', url: 'berkeley_plants.html', count: 18 },
+                                                        { id: 'berkeley_backdrops', label: 'Berkeley Backdrops', url: 'berkeley_backdrops.html', count: 7 }
+                                                    ]
+                                                }
                                             ]
-                                        }
+                                        },
+                                        { id: 'kings_canyon', label: 'Kings Canyon', url: 'kings_canyon.html', count: 23 },
+                                        { id: 'california_landscapes', label: 'Landscapes', url: 'california_landscapes.html', count: 8 },
+                                        { id: 'yosemite', label: 'Yosemite', url: 'yosemite.html', count: 24 }
                                     ]
                                 },
-                                { id: 'kings_canyon', label: 'Kings Canyon', url: 'kings_canyon.html', count: 23 },
-                                { id: 'california_landscapes', label: 'Landscapes', url: 'california_landscapes.html', count: 8 },
-                                { id: 'yosemite', label: 'Yosemite', url: 'yosemite.html', count: 24 }
+                                { id: 'oregon', label: 'Oregon', url: 'oregon.html', count: 15 }
                             ]
                         },
                         {

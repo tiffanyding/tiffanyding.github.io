@@ -98,6 +98,11 @@ function loadYosemitePhotos() {
     getAllImagesModal("california/yosemite", 24)
 }
 
+function loadOregonPhotos() {
+    getAllImagesScrollingWrapper("oregon", 15)
+    getAllImagesModal("oregon", 15)
+}
+
 function loadWhiteSandsPhotos() {
     getAllImagesScrollingWrapper("new_mexico/white_sands", 19)
     getAllImagesModal("new_mexico/white_sands", 19)
